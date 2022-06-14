@@ -1,0 +1,105 @@
+body{
+    width: 1440px;
+    font-size: 16px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    background-color: hsl(0, 0%, 95%);
+}
+
+main{
+    display: flex;
+    margin: 5% 20%;
+}
+
+h1{
+    color: hsl(0, 0%, 95%);
+}
+
+.btn-sec1{
+    background-color:hsl(0, 0%, 95%) ;
+    color:hsl(31, 77%, 52%) ;
+    border-radius: 25px;
+    padding: 10px;
+    width: 120px;
+    margin-top: 4em;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-sec2{
+    background-color:hsl(0, 0%, 95%) ;
+    color:hsl(184, 100%, 22%) ;
+    border-radius: 25px;
+    padding: 10px;
+    width: 120px;
+    margin-top: 4em;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-sec3{
+    background-color:hsl(0, 0%, 95%) ;
+    color:hsl(179, 100%, 13%) ;
+    border-radius: 25px;
+    padding: 10px;
+    width: 120px;
+    margin-top: 4em;
+    border: none;
+    cursor: pointer;
+}
+
+.section1{
+    background-color: hsl(31, 77%, 52%) ;
+    width: 30%;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 4em;
+    line-height: 2em;
+}
+
+.section2{
+    background-color: hsl(184, 100%, 22%);
+    width: 30%;
+    padding: 4em;
+    line-height: 2em;
+}
+
+.section3{
+    background-color: hsl(179, 100%, 13%);
+    width: 30%;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 4em;
+    line-height: 2em;
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.btn-sec1:hover{
+    color:hsl(0, 0%, 95%) ;
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color:hsl(31, 77%, 52%) ;
+}
+
+.btn-sec2:hover{
+    color:hsl(0, 0%, 95%) ;
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color:hsl(184, 100%, 22%) ;
+}
+
+.btn-sec3:hover{
+    color:hsl(0, 0%, 95%) ;
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color:hsl(179, 100%, 13%) ;
+}
+
+@media screen and (max-width:500px) {
+
+    body{
+        width:375px;
+    }
+
+    
+}

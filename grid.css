@@ -1,0 +1,57 @@
+body{
+    margin: auto 25%;
+}
+
+.grid-container {
+    width: 100%;
+    display: grid;
+    gap: 10px;
+    background-color:black;
+    padding: 40px;
+    grid-template-areas: 
+    'red red red red red red blue blue  blue blue'
+    'green green green orange orange  orange orange orange orange orange'
+    'green green green brown brown brown brown brown brown brown'
+    ;
+    
+  }
+
+
+  
+  .grid-container > div {
+    text-align: right;
+    font-size: 100px;
+  }
+
+
+.header{
+      background-color: red;
+      grid-area: red;
+      padding: 100px;
+}
+
+
+.menu{
+    background-color: #2196F3;
+    grid-area: blue;
+    padding: 50px;
+}
+
+
+.main{
+    background-color: aquamarine;
+    grid-area: green;
+    padding:90px ;
+}
+
+.right{
+    background-color: blanchedalmond;
+    grid-area: orange;
+    padding: none;
+}
+
+.footer{
+    background-color: brown;
+    grid-area: brown;
+    padding: 10px;
+}
