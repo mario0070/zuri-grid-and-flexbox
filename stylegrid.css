@@ -6,7 +6,7 @@ body{
     ackground-color: hsl(0, 0%, 95%);
 }
 
-ain{
+main{
     display: flex;
     margin: 5% 20%;
 }
