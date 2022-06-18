@@ -2,7 +2,6 @@ body{
     width: 1440px;
     font-size: 16px;
     font-family: 'Big Shoulders Display', cursive;
-    font-weight: 700;
     background-color: hsl(0, 0%, 95%);
 }
 
@@ -53,14 +52,14 @@ h1{
     width: 30%;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
-    padding: 4em;
+    padding: 2em;
     line-height: 2em;
 }
 
 .section2{
     background-color: hsl(184, 100%, 22%);
     width: 30%;
-    padding: 4em;
+    padding: 2em;
     line-height: 2em;
 }
 
@@ -69,12 +68,13 @@ h1{
     width: 30%;
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
-    padding: 4em;
+    padding: 2em;
     line-height: 2em;
 }
 
 p{
     color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 .btn-sec1:hover{
